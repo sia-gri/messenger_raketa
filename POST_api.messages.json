@@ -5,7 +5,7 @@ Content-Type: application/json
 
 {
   "recipient_id": 2,
-  "text": "Привет! Как дела?"
+  "text": "Привет! Мне отправили оффер на позицию аналитика в RAKETA! Ура!"
 }
 ~Ответ сервера~
 {

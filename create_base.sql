@@ -15,5 +15,5 @@ CREATE TABLE messages (
     send_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     status VARCHAR(20) DEFAULT 'send',
     read_time TIMESTAMP NULL,
-    FOREIGN KEY (sender_id) REFERENCES users(user_id) ON DELETE CASCADE,
-    FOREIGN KEY (recipient_id) REFERENCES users(user_id) ON DELETE CASCADE;
+    FOREIGN KEY (sender_id) REFERENCES users(user_id),
+    FOREIGN KEY (recipient_id) REFERENCES users(user_id);

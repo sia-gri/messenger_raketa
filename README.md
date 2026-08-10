@@ -5,7 +5,7 @@
 <h2><strong><strong>1. Задача для разработчика</strong></strong></h2>
 <p style="text-align: justify;"><strong>Название: </strong><span style="font-weight: 400;">00001.</span> <span style="font-weight: 400;">MVP. EPIC. Разработка мессенджера &laquo;Raketa 1-1&raquo;.</span></p>
 <p style="text-align: justify;"><strong>Цель:</strong> <span style="font-weight: 400;">разработать текстовый мессенджер для двух абонентов с функционалом регистрации/авторизации, обмена текстовыми сообщениями, хранения истории переписки, отображения статуса собеседника и статусов доставки сообщений, с использованием команды из 4 разработчиков до 5 октября 2026 года (8 недель).</span></p>
-<p style="text-align: justify;"><strong>Окружение: </strong><span style="font-weight: 400;">Desktop, Linux (Ubuntu), MySQL, WebSocket.</span></p>
+<p style="text-align: justify;"><strong>Окружение: </strong><span style="font-weight: 400;">Desktop, Linux (Ubuntu)</span></p>
 <p style="text-align: justify;"><strong>Функциональные требования:</strong></p>
 <ul style="text-align: justify;">
 <li style="font-weight: 400;"><span style="font-weight: 400;">Система должна обеспечивать создание учетных записей с уникальным логином и надежным паролем, а также аутентификацию при входе. Пароли хранятся в хешированном виде с использованием bcrypt. При успешной авторизации пользователь получает JWT-токен, статус меняется на &laquo;В сети&raquo;, фиксируется время последней активности. При выходе статус становится &laquo;Не в сети&raquo;.</span></li>

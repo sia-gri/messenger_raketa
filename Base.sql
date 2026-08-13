@@ -16,4 +16,5 @@ CREATE TABLE messages (
     status VARCHAR(20) DEFAULT 'send',
     read_time TIMESTAMP NULL,
     FOREIGN KEY (sender_id) REFERENCES users(user_id),
-    FOREIGN KEY (recipient_id) REFERENCES users(user_id);
+    FOREIGN KEY (recipient_id) REFERENCES users(user_id)
+    );
